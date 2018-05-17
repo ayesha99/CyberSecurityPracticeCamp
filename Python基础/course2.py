@@ -14,7 +14,7 @@ oct(i) # 八进制 0o6321
 hex(i) # 十六进制 0xabcd
 str = '0b1101'
 base = 2 # python支持2-36进制
-int(str,base) #将字符串转换成整数
+int(str,base) #将字符串转换成整数十进制
 '''
 base不写默认十进制
 int('0b1110')报错，进制不匹配
